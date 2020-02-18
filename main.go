@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Cutter interface {
 	Cut()
@@ -10,10 +12,16 @@ type Cooker interface {
 	Cook()
 }
 
-type X struct {
-
+type knife struct {
 }
 
-func (x X) Cut() {
+type pan struct {
+}
+
+func (k knife) Cut() {
 	fmt.Println("Chop Chop Chop...!")
+}
+
+func (p pan) Cook() {
+	fmt.Println("bla bla bla...!")
 }
