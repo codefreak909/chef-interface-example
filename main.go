@@ -15,13 +15,29 @@ type Cooker interface {
 type knife struct {
 }
 
+type chainsaw struct {
+}
+
+type oven struct {
+}
+
 type pan struct {
 }
+
 
 func (k knife) Cut() {
 	fmt.Println("Chop Chop Chop...!")
 }
 
+func (c chainsaw) Cut() {
+	fmt.Println("ZRRRRRRRRRRR!!!!")
+}
+
 func (p pan) Cook() {
-	fmt.Println("bla bla bla...!")
+	fmt.Println("sweeeeesh!")
+}
+
+
+func (o oven) Cook() {
+	fmt.Println("BHHHHHHHMMMMMMMMM!")
 }
