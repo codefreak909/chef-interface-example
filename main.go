@@ -63,7 +63,13 @@ func main() {
 		Cooker: pan{},
 	}
 
+	//Shannon Bennett a renowned Australian chef loves to use a chainsaw and oven to work
+	fatDude := chef{
+		Cutter: chainsaw{},
+		Cooker: oven{},
+	}
 	//Swish swissh and a swissh he makes an amazing dish!
 	shannon.Do()
+	fatDude.Do()
 }
 
