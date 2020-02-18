@@ -2,16 +2,15 @@ package main
 
 import "fmt"
 
-type butter interface {
-	but()
+type Cutter interface {
+	Cut()
 }
 
-type booker interface {
-	book()
+type Cooker interface {
+	Cook()
 }
 
 type X struct {
-
 }
 
 func (x X) Cut() {
