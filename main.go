@@ -56,3 +56,14 @@ func (c chef) Do() {
 	c.Cook()
 }
 
+func main() {
+	//Shannon Bennett a renowned Australian chef loves to use a knife and pan to work
+	shannon := chef{
+		Cutter: knife{},
+		Cooker: pan{},
+	}
+
+	//Swish swissh and a swissh he makes an amazing dish!
+	shannon.Do()
+}
+
