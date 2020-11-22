@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Language-Go-blue
+
 
 # chef-interface-example
 An example to illustrate how to work with interfaces in Go.
